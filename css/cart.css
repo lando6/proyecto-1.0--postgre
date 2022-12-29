@@ -1,0 +1,148 @@
+html
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #171717;
+  height:100%;
+  overflow:hidden;
+}
+body
+{
+  height: 100%;
+  background: whitesmoke;
+  width:95%;
+  max-width:700px;
+  padding:3em;
+  margin:0 auto;
+  overflow: scroll;
+}
+#ad
+{
+  	background: orange;
+  	background: -moz-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: -webkit-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: linear-gradient(to bottom, orange 0%, #bf7c00 66%, #9c6e18 100%);
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:60px;
+	overflow:hidden;
+	font-weight: bold;
+}
+#ad p 
+{
+  font-weight:bold;
+  font-size:20px;
+}
+#ad a
+{
+  text-decoration:none;
+  color:black;  
+}
+#ad #exit a:hover
+{
+	text-shadow:0 0 5px rgb(255, 0, 0);
+}
+#ad #exit
+{
+  width:120px;
+  height:60px;
+  left:93%;
+  position:fixed;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+}
+#ad #exit p 
+{
+  color:orange !important;
+  padding: 0  10px ;
+}
+#ad #regresar
+{
+  position:absolute;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  width:120px;
+  height:auto;
+  left:0;
+  top:-6%;
+}
+#ad #regresar a 
+{
+  color:orange !important;
+}
+table.tabla_datos 
+{
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top:8%;
+    margin-bottom:12%;
+}
+table.tabla_datos td, table.tabla_datos th 
+{
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.tabla_datos tbody td 
+{
+    font-size: 15px;
+}
+table.tabla_datos thead 
+{
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  border-bottom: 2px solid #444444;
+  color:#ffba00;
+  text-align:center;
+}
+table.tabla_datos thead a, td a 
+{
+  text-decoration:none;
+  color:#cca300;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+table.tabla_datos thead a:hover, td a:hover 
+{
+  color:red;
+  font-weight:bold;
+}
+#mail button
+{
+  position: absolute;
+  margin-top:-20px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  height: 30px;
+  width:200px;
+  border:none;
+  border-radius: 5px;
+    background: orange;
+  	background: -moz-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: -webkit-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: linear-gradient(to bottom, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  color:black;
+  cursor: pointer;
+  font-weight:bold;
+}
+#mail button:hover
+{
+    transition: 0.3s ease;
+    color: orange;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+
+}

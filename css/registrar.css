@@ -1,0 +1,180 @@
+html
+{
+	background: #171717;
+  	height: 100%;
+  	overflow: hidden;
+  	font-family: sans-serif;
+}
+#logo
+{
+		width:200px;
+		height:200px;
+		position:fixed;
+		top:46%;
+		left:150%;
+		transform:translate(-50%,-50%);
+		background:black;
+		background-image:url('image/user.png');
+		border-radius:5px;
+		box-shadow: 0 15px  45px rgba(0,0,0,.5);
+	 border-radius: 200px;
+}
+#ad
+{
+  	background: orange;
+  	background: -moz-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: -webkit-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  	background: linear-gradient(to bottom, orange 0%, #bf7c00 66%, #9c6e18 100%);
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:60px;
+	overflow:hidden;
+}
+#ad a
+{
+  text-decoration:none;
+  color:black;  
+}
+#ad #exit a:hover
+{
+	text-shadow:0 0 5px rgb(255, 0, 0);
+}
+#ad p 
+{
+  font-weight:bold;
+  font-size:20px;
+}
+#ad #regresar
+{
+  position:absolute;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  width:120px;
+  height:auto;
+  left:0;
+  top:-6%;
+}
+#ad #regresar a 
+{
+  color:orange !important;
+}
+#ad #verq
+{
+	position:absolute;
+	top:-6%;
+	left:9%;
+	background: #000000;
+  	background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  	background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  	background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+	width:225px;
+	height:auto;
+	text-align:center;
+}
+#ad #verq a 
+{
+	color:orange !important;
+}
+#ad #exit
+{
+  width:120px;
+  height:60px;
+  left:93%;
+  position:fixed;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+}
+#ad #exit p 
+{
+  color:orange !important;
+  padding: 0  10px ;
+}
+#registrar
+{
+	position: absolute;
+	top:55%;
+	left:28%;
+	transform: translate(-50%,-50%);
+	width: 380px;
+	height:350px;
+	padding: 50px;
+	background: rgba(0,0,0,.8);
+    color:orange;
+	box-sizing: border-box;
+	box-shadow: 0 15px  25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+#registrar p 
+{
+	position: absolute;
+	top:-25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:orange;
+  	background: #000000;
+  	background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  	background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  	background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+	width: 300px;
+	height: auto;
+	text-align: center;
+	border-radius:5px;
+	border:1px solid #4e432d;
+	text-shadow: 2px 2px 5px black;
+	font-family: ;
+	font-weight:bold;
+	font-size:30px;
+}
+#registrar table td 
+{
+  font-weight: bold;
+	padding: 15px 0 0 0;
+}
+#registrar input[type='text'], input[type='number'], input[type='password']
+{
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid orange;
+	width:200px;
+	color:orange;
+}
+#registrar input[type="submit"]
+		{
+		border:none;
+		outline: none;
+		color:orange;
+  		background: #000000;
+  		background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  		background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  		background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+		padding: 10px 20px;
+		cursor: pointer;
+		border-radius: 5px;
+		position: fixed;
+		transform: translate(-50%,-50%);
+		top:88%;
+		left:50%;
+font-weight: bold;
+}
+#registrar input[type="submit"]:hover
+{
+	background: orange;
+	background: -moz-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+	background: -webkit-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+	background: linear-gradient(to bottom, orange 0%, #bf7c00 66%, #9c6e18 100%);
+			color: black;
+			transition: .3s ease;
+}
+#registrar select
+{
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid orange;
+	color: orange;
+}

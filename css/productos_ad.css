@@ -1,0 +1,180 @@
+html 
+{
+  background: #171717;
+  height: 100%;
+  overflow: hidden;
+}
+body 
+{
+
+  height: 100%;
+  background: whitesmoke;
+  overflow: scroll;
+  width: 95%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 3em;
+  font: 100%/1.4 serif;
+  border: 1px solid rgba(0,0,0,0.25);
+  font-family: sans-serif;
+}
+
+body::-webkit-scrollbar 
+{
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track 
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb 
+{
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+#ad
+{
+  background: orange;
+  background: -moz-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  background: -webkit-linear-gradient(top, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  background: linear-gradient(to bottom, orange 0%, #bf7c00 66%, #9c6e18 100%);
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:60px;
+  overflow:hidden;
+}
+#ad a
+{
+  text-decoration:none;
+  color:black;  
+}
+#ad p 
+{
+  font-weight:bold;
+  font-size:20px;
+}
+#ad #agregar 
+{
+  position:absolute;
+  top:-6%;
+  left:9%;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  width:285px;
+  text-align:center;
+}
+#ad #agregar a 
+{
+  color:orange !important;
+}
+#ad #regresar
+{
+  position:absolute;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  width:120px;
+  height:auto;
+  left:0;
+  top:-6%;
+}
+#ad #regresar a 
+{
+  color:orange !important;
+}
+#ad #exit
+{
+  width:120px;
+  height:60px;
+  left:93%;
+  position:fixed;
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+}
+#ad #exit p 
+{
+  color:orange !important;
+  padding: 0  10px ;
+}
+#ad #buscar
+{
+  position:absolute;
+  top:50%;
+  left:-590%;
+  transform:translate(-50%,-50%);
+  margin-left:10%;
+}
+#ad #buscar #caja_busqueda
+{
+  position:absolute;
+  top:50%;
+  left:100%;
+  transform:translate(-50%,-50%);
+  height:20px;
+  width:190%;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid ;
+}
+#ad #buscar p 
+{
+  margin-left:-90%;
+  color:black !important;
+}
+table.tabla_datos 
+{
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top:8%;
+    margin-bottom:12%;
+}
+table.tabla_datos td, table.tabla_datos th 
+{
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.tabla_datos tbody td 
+{
+    font-size: 13px;
+}
+table.tabla_datos tbody a 
+{
+  text-decoration:none;
+  color:darkblue;
+  font-weight:bold;
+}
+table.tabla_datos tbody a:hover
+{
+  color:red;
+}
+table.tabla_datos tr:nth-child(even) 
+{
+    background: #cedae4;
+}
+table.tabla_datos thead 
+{
+  background: #000000;
+  background: -moz-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: -webkit-linear-gradient(top, #474848 0%, #23282b 66%, #0e1e29 100%);
+  background: linear-gradient(to bottom, #474848 0%, #23282b 66%, #0e1e29 100%);
+  border-bottom: 2px solid #444444;
+  color:#ffba00;
+  text-align:center;
+}
+#not
+{
+  margin-top:50px;
+}
